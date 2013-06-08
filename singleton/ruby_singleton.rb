@@ -1,5 +1,5 @@
 require 'singleton'
 
 class RubySingleton
-	include Singleton
+  include Singleton
 end

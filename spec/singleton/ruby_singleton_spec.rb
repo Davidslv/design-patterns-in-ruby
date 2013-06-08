@@ -1,8 +1,8 @@
 require 'spec_helper'
 
-require './singleton/my_singleton'
+require './singleton/ruby_singleton'
 
-describe MySingleton do
+describe RubySingleton do
 
 	it 'should not be a eager class' do
 		# will return 1 if is a eager class and 0 if not
